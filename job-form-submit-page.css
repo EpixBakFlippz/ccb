@@ -1,0 +1,218 @@
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-image: url("ccb-blur-back.png");
+	background-attachment: blur;
+}
+
+header {
+	background-image: url("headerback.png");
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tagline {
+	margin-top: -2%;
+	padding-left: 40px;
+	margin-right: 200px;
+}
+
+.carb {
+	margin-top: -4%;
+	margin-right: 200px;
+}
+
+.cb {
+	margin-top: -40px;
+	margin-right: 200px;
+}
+
+#and {
+	font-family: Catamaran;
+	font-size: 100px;
+	margin-right: 200px;
+}
+
+/* Put your CSS Styles Below this Line */
+#logo {
+	justify-content: left;
+	padding: 0;
+	margin-top: -1px;
+	transition: ease-out .4s;
+}
+
+#logo:hover {
+	transition: ease-in .4s;
+	animation-name: logo;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.header-content {
+	align-self: flex-end;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+	color:  #ffffff;
+	text-decoration:  none;
+	transition: ease-out .4s;
+	border-radius: 25px;
+}
+
+header nav ul li a:hover {
+	color: #2E1906;
+	transition: all ease .4s;
+	background-color: #ffffff;
+	padding: 4px 10px;
+	margin: 0;
+	border-radius: 25px;
+}
+
+
+h1 {
+	font-family: Spartan, sans-serif;
+	font-style: Black;
+	font-size: 80px;
+	margin: 0px;
+	color: #ffffff;
+	padding: 0;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+	font-family: Poiret One;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+}
+
+li {
+	list-style: none;
+	font-family: Sen;
+	font-style: Regular;
+	font-size: 40px;
+	color: #ffffff;
+	padding: 25px;
+}
+
+#thx {
+	font-size: 100px;
+	color: #ffffff;
+	font-family: Spartan;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+#apprctn-prgrph {
+	color: #ffffff;
+	font-size: 40px;
+	text-align: center;
+	font-family: Quicksand;
+	display: flex;
+	justify-content: center;
+	max-width: 95%;
+	margin: 0 auto;
+	padding-top: 2.5%;
+	padding-bottom: 5%;
+}
+
+
+
+footer {
+	background-color: #2E1500;
+}
+
+.logo-cntct {
+	width: 400px;
+}
+
+.cntct-scl {
+	font-family: Catamaran;
+	color: #ffffff;
+	font-size: 70px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.img-cnct-scls {
+	display: flex;
+}
+
+#cncts {
+	flex-direction: column;
+	padding-left: 20px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+}
+
+.cnct-nf {
+	font-family: Catamaran;
+	color: #ffffff;
+	font-size: 24px;
+	text-align: left;
+}
+
+.scl-mds {
+	display: flex;
+	justify-content: space-between;
+}
+
+.scl-mds img {
+	margin-right:  15px;
+}
+
+.ftr-pics {
+ display: flex;
+}
+
+.cmn-rl {
+	padding: 0;
+	max-height: 50%;
+	margin-left: 30px;
+}
+
+.cfe {
+ padding: 0;
+ max-height: 100%;
+ margin: 0;
+}
+
+@keyframes logo {
+	0% {filter: none}
+	50% {filter: brightness(150%)}
+	100% {filter: none}
+}

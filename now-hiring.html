@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Job Application</title>
+	<link rel="stylesheet" type="text/css" href="now-hiring.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Poiret+One&family=Sen&family=Spartan:wght@400;900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="C&CB-Transparent-White.png" id="logo"></a>
+		<div class="header-content">
+			<h1 class="carb">Carbs <span id="and">&</span></h1>
+			<h1 class="cb">Cold Brews</h1>
+			<h6 class="tagline">Memphis Baked and Brewed Since 2021</h6>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a class="active" href="now-hiring.html">Now Hiring</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="bdy-hdr">
+		<h1 id="form-hdr">C&CB</h1>
+		<h3 id="under-hdr">Job Application Form</h3>
+		<h3 id="hdr-prgrph">Fill out the form honestly and answer any questions as best you can. If there is no position available, we will inform you through email.</h3>
+	</div>
+
+<form class="whl-frm">
+
+	<div id="nm-ntry">
+		<label for="fname" class="name-entry-labels">First Name:</label><br>
+		<input type="text" id="fname" name="fname" required><br>
+		<label for="minitial" class="name-entry-labels">Middle Initial:</label><br>
+		<input type="text" id="minitial" name="minitial" required><br>
+		<label for="lname" class="name-entry-labels">Last Name:</label><br>
+		<input type="text" id="lname" name="lname" required>
+	</div>
+
+	<div id="radio-choice-one">
+		<p class="questions" id="frst-qstn">1. Do you have previous experience in a food truck?</p>
+		<div id="frst-qstn-chc-one">
+			<input type="radio" id="yes-bttn" name="frst-qstn" value="Yes">
+			<label for="yes">Yes</label><br>
+		</div>
+		<div id="frst-qstn-chc-two">
+			<input type="radio" id="no-bttn" name="frst-qstn" value="No">
+			<label for="no">No</label><br>
+		</div>
+	</div>
+
+	<div id="dob-form">
+		<p class="questions" id="brth-date">2. Please Enter your D.O.B. (Date of Birth)</p>
+		<input type="date" id="brth-entry" required>
+	</div>
+	
+	<div id="discover-qstn">
+		<p class="questions" id="discover-us">3. Please select all ways that you have heard about us</p>
+		<div class="chckbx-frnd">
+			<input type="checkbox" id="frnd" name="frnd" value="frnd">
+			<label for="frnd">Heard from a friend</label><br>
+		</div>
+		<div class="chckbx-onln">
+			<input type="checkbox" id="onln" name="onln" value="onln">
+			<label for="onln">From the Internet</label><br>
+		</div>
+		<div class="chckbx-pblc">
+			<input type="checkbox" id="strt" name="strt" value="strt">
+			<label for="strt">In public/On the Street</label><br>
+		</div>
+	</div>
+
+	<div id="transport">
+		<p class="questions" id="transport-qstn">4. Please select all ways that you will commute to work</p>
+		
+		<div class="bike-chckbx trsnprt-optn">
+			<input type="checkbox" id="bike" name="bike" value="bike">
+			<label for="bike">Bike</label><br>
+		</div>
+		<div class="car-chckbx trsnprt-optn">
+			<input type="checkbox" id="car" name="car" value="car">
+			<label for="car">Car</label><br>
+		</div>
+		<div class="walk-chckbx trsnprt-optn">
+			<input type="checkbox" id="walk" name="walk" value="walk">
+			<label for="walk">Walk</label><br>
+		</div>
+	</div>
+
+	<div id="contact-info">
+		<p class="questions" id="cntct-info-frm">5. Please fill out the contact information accordingly</p>
+		<div class="email-dv cntcts-frm">
+			<label for="email-box">Email:</label><br>
+			<input type="text" id="email" name="email" placeholder="example@website.web" required>
+		</div>
+
+		<div class="phn-nmbr-dv cntcts-frm">
+			<label for="cell">Cellphone Number:</label><br>
+			<input type="text" id="cell-nbr" name="cell-nbr" placeholder="(XXX) XXX-XXXX" required>
+		</div>
+
+		<!-- <div class="address-info cntcts-frm">
+			<label for="adrs">Address/P.O. Box:</label><br>
+			<input type="text" id="address" name="address" placeholder="123 Name Street, St ZpCode" required>
+		</div> -->
+	</div>
+		<div id="sbmt">
+			<input type="submit" class="form-submit-button" formaction="job-form-submit-page.html">
+		</div>
+</form>
+
+
+<footer>
+		<h3 class="cntct-scl">Contact Info & Social Media</h3>
+		<div class="img-cnct-scls">
+			<img class="logo-cntct" src="C&CB-Transparent-white-footer.png">
+			<div id="cncts">
+				<p class="cnct-nf">Email: hello@c-cb.com</p>
+				<p class="cnct-nf">Phone: (901) 123-4567</p>
+				<p class="cnct-nf">P.O. Box: 12345, Memphis, TN 38134</p>
+				<div class="scl-mds">
+					<a href="https://facebook.com">
+						<img class="fb" src="facebook-trans.png">
+					</a>
+					<a href="https://www.instagram.com">
+						<img class="inst" src="insta-trans.png">
+					</a>
+					<a href="https://www.tiktok.com">
+						<img class="tktk" src="tiktok-trans.png">
+					</a>
+				</div>
+			</div>
+				<div class="ftr-pics">
+					<img class="cmn-rl" src="cinnamon-roll-trans.png">
+					<img class="cfe" src="iced-coffee-trans.png">
+				</div>
+			</div>
+		
+	</footer>
+
+</body>
+</html>

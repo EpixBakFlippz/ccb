@@ -1,0 +1,485 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-image: url("ccb-blur-back.png");
+	background-attachment: blur;
+}
+
+header {
+	background-image: url("headerback.png");
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tagline {
+	margin-top: -2%;
+	padding-left: 40px;
+}
+
+.carb {
+	margin-top: -4%;
+	margin-right: 200px;
+}
+
+.cb {
+	margin-top: -40px;
+	margin-right: 200px;
+}
+
+#and {
+	font-family: Catamaran;
+	font-size: 100px;
+	margin-right: 200px;
+}
+
+/* Put your CSS Styles Below this Line */
+#logo {
+	justify-content: left;
+	padding: 0;
+	margin-top: -1px;
+	transition: ease-out .4s;
+}
+
+#logo:hover {
+	transition: ease-in .4s;
+	animation-name: logo;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.header-content {
+	align-self: flex-end;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+	color:  #ffffff;
+	text-decoration:  none;
+	transition: ease-out .4s;
+	border-radius: 25px;
+}
+
+header nav ul li a:hover {
+	color: #2E1906;
+	transition: all ease .4s;
+	background-color: #ffffff;
+	padding: 4px 10px;
+	margin: 0;
+	border-radius: 25px;
+}
+
+h1 {
+	font-family: Spartan, sans-serif;
+	font-style: Black;
+	font-size: 80px;
+	margin: 0px;
+	color: #ffffff;
+	padding: 0;
+}
+
+h6 {
+	font-family: Poiret One;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+}
+
+li {
+	list-style: none;
+	font-family: Sen;
+	font-style: Regular;
+	font-size: 40px;
+	color: #ffffff;
+	padding: 25px;
+}
+
+nav ul li a.active {
+	color: #a7a7a7;
+	text-shadow: 0 0 8px #000000;
+	transition: none;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a.active:hover {
+	transition: none;
+	background: none;
+	color: #a7a7a7;
+	padding: 0;
+	margin: 0;
+	cursor: default;
+}
+
+#form-hdr {
+	font-size: 200px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	font-family: Catamaran;
+	margin: 0;
+	padding: 0;
+	text-shadow: 5px 5px 5px #000000;
+}
+
+#under-hdr {
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	font-family: Quicksand;
+	font-size: 100px;
+	padding: 0;
+	margin: 0;
+	text-decoration: underline;
+}
+
+#hdr-prgrph {
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: Quicksand;
+	font-size: 30px;
+	max-width: 900px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#nm-ntry label {
+	font-family: Sen;
+	color: #ffffff;
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.name-entry-labels {
+	font-family: Sen;
+	color: #ffffff;
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#nm-ntry {
+	font-family: Sen;
+	color: #ffffff;
+	font-size: 40px;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#fname {
+	width: 30%;
+	font-size: 30px;
+	border-radius: 10px;
+	font-family: Quicksand;
+	padding: 10px 20px;
+	margin-left: 10%;
+
+}
+
+#minitial {
+	width: 2%;
+	font-size: 30px;
+	border-radius: 10px;
+	font-family: Quicksand;
+	padding: 10px 20px;
+	margin-left: 10%;
+}
+
+#lname {
+	width: 30%;
+	font-size: 30px;
+	border-radius: 10px;
+	font-family: Quicksand;
+	padding: 10px 20px;
+	margin-left: 10%;
+}
+
+.questions {
+	color: #ffffff;
+	font-family: Sen;
+	font-size: 40px;
+}
+
+#frst-qstn {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+input[type="radio"] {
+	border: 0px;
+	width: 2em;
+	height: 2em;
+	padding: 0;
+}
+
+#frst-qstn-chc-one {
+	display: flex;
+	justify-content: center;
+}
+
+#frst-qstn-chc-two {
+	display: flex;
+	justify-content: center;
+}
+
+#radio-choice-one label {
+	color: #ffffff;
+	font-size: 30px;
+	font-family: Quicksand;
+}
+
+#brth-date {
+	display: flex;
+	justify-content: center;
+}
+
+input[type="date"] {
+	border: 3px;
+	width: 25%;
+	padding: 0;
+	font-family: Quicksand;
+	text-align: center;
+	font-size: 35px;
+	border: solid;
+	border-color: #2e1500;
+	border-radius: 10px;
+}
+
+#brth-entry {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+#discover-us {
+	display: flex;
+	justify-content: center;
+}
+
+input[type="checkbox"] {
+	border: 1px;
+	padding: 0;
+	transform: scale(1.5);
+	border: solid;
+	border-color: #2e1500;
+}
+
+#discover-qstn label {
+	font-family: Quicksand;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.chckbx-frnd {
+	display: flex;
+	text-align: center;
+	margin-left: 40%;
+	padding-top: 3%;
+}
+
+.chckbx-onln {
+	display: flex;
+	text-align: center;
+	margin-left: 40%;
+	padding-top: 3%;
+}
+
+.chckbx-pblc {
+	display: flex;
+	text-align: center;
+	margin-left: 40%;
+	padding-top: 3%;
+}
+
+#transport-qstn {
+	display: flex;
+	justify-content: center;
+}
+
+#transport label{
+	font-family: Quicksand;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+
+.bike-chckbx {
+	display: flex;
+	text-align: center;
+	margin-left: 43%;
+	padding-top: 1%;
+}
+
+.car-chckbx {
+	display: flex;
+	text-align: center;
+	margin-left: 43%;
+	padding-top: 1%;
+}
+
+.walk-chckbx {
+	display: flex;
+	text-align: center;
+	margin-left: 43%;
+	padding-top: 1%;
+}
+
+#cntct-info-frm {
+	display: flex;
+	justify-content: center;
+}
+
+.cntcts-frm {
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 2%;
+	justify-content: space-between;
+}
+
+#contact-info label {
+	font-family: Sen;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+#contact-info input[type="text"] {
+	width: 40%;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: Quicksand;
+}
+
+#sbmt {
+	display: flex;
+	justify-content: center;
+}
+
+.form-submit-button {
+	color: #ffffff;
+	background: linear-gradient(-45deg, #71381d, #ffd5c2);
+	animation: gradient .15s all ease;
+	border-radius: 50px;
+	width: 20%;
+	font-family: Shadows Into Light;
+	font-size: 60px;
+	border: none;
+	box-shadow: 0 0 3px #ffffff;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	transition: ease-out .4s;
+}
+
+.form-submit-button:hover {
+	transition: all ease .4s;
+	width: 30%;
+	font-size: 85px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px #00fff7;
+	cursor: pointer;
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+footer {
+	background-color: #2E1500;
+}
+
+.logo-cntct {
+	width: 400px;
+}
+
+.cntct-scl {
+	font-family: Catamaran;
+	color: #ffffff;
+	font-size: 70px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.img-cnct-scls {
+	display: flex;
+}
+
+#cncts {
+	flex-direction: column;
+	padding-left: 20px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+}
+
+.cnct-nf {
+	font-family: Catamaran;
+	color: #ffffff;
+	font-size: 24px;
+	text-align: left;
+}
+
+.scl-mds {
+	display: flex;
+	justify-content: space-between;
+}
+
+.scl-mds img {
+	margin-right:  15px;
+}
+
+.ftr-pics {
+ display: flex;
+}
+
+.cmn-rl {
+	padding: 0;
+	max-height: 50%;
+	margin-left: 30px;
+}
+
+.cfe {
+ padding: 0;
+ max-height: 100%;
+ margin: 0;
+}
+
+@keyframes logo {
+	0% {filter: none}
+	50% {filter: brightness(150%)}
+	100% {filter: none}
+}
